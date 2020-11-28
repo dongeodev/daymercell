@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="121.861" height="102.211" viewBox="0 0 121.861 102.211">
+  <defs>
+    <filter id="Rectangle_7" x="10.01" y="0" width="101.798" height="73.985" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#633a82" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_8" x="16.521" y="7.129" width="91.592" height="60.357" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#633a82" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1" x="2.053" y="55.659" width="117.715" height="25.71" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-color="#633a82" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2" x="0" y="50.048" width="121.861" height="24.119" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-color="#633a82" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_1" x="50.113" y="1.809" width="21.527" height="21.47" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-color="#633a82" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_9" x="33.614" y="9.497" width="65.33" height="87.326" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-color="#633a82" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_10" x="39.141" y="16.59" width="54.277" height="70.564" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-color="#633a82" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_11" x="52.416" y="71.63" width="27.726" height="21.559" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-color="#633a82" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_2" x="56.309" y="12.154" width="21.191" height="21.142" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-color="#633a82" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_12" x="21.553" y="39.235" width="46.363" height="62.977" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-color="#633a82" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_13" x="24.814" y="43.794" width="39.843" height="52.196" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-11"/>
+      <feFlood flood-color="#633a82" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_14" x="32.661" y="79.216" width="24.147" height="20.646" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-12"/>
+      <feFlood flood-color="#633a82" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_15" x="85.014" y="54.77" width="35.107" height="19.858" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-13"/>
+      <feFlood flood-color="#633a82" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_" x="45.89" y="19.32" width="43" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-14"/>
+      <feFlood flood-color="#633a82" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-95.296 -286.459)">
+    <g transform="matrix(1, 0, 0, 1, 95.3, 286.46)" filter="url(#Rectangle_7)">
+      <rect id="Rectangle_7-2" data-name="Rectangle 7" width="82.717" height="54.904" rx="4.081" transform="translate(19.55 6.54)" fill="#fff" stroke="#633a82" stroke-width="1.081"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 95.3, 286.46)" filter="url(#Rectangle_8)">
+      <rect id="Rectangle_8-2" data-name="Rectangle 8" width="72.561" height="41.326" transform="translate(26.04 13.64)" fill="#fff" stroke="#633a82" stroke-width="1.031"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 95.3, 286.46)" filter="url(#Path_1)">
+      <path id="Path_1-2" data-name="Path 1" d="M51.161,136.17v2.069a4.574,4.574,0,0,0,4.617,4.56H145.13a4.616,4.616,0,0,0,4.665-4.56V136.17H51.161Z" transform="translate(-39.57 -73.97)" fill="#fff" stroke="#633a82" stroke-miterlimit="60.9" stroke-width="1.081"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 95.3, 286.46)" filter="url(#Path_2)">
+      <path id="Path_2-2" data-name="Path 2" d="M50.529,137.271l7.941-5.116h84.1l8.3,4.94Z" transform="translate(-39.83 -75.61)" fill="#633a82" stroke="#633a82" stroke-width="1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 95.3, 286.46)" filter="url(#Ellipse_1)">
+      <ellipse id="Ellipse_1-2" data-name="Ellipse 1" cx="1.263" cy="1.235" rx="1.263" ry="1.235" transform="translate(59.61 8.31)" fill="#0cc" stroke="#633a82" stroke-width="1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 95.3, 286.46)" filter="url(#Rectangle_9)">
+      <rect id="Rectangle_9-2" data-name="Rectangle 9" width="46.249" height="68.245" rx="5.051" transform="translate(43.15 16.04)" fill="#fff" stroke="#633a82" stroke-width="1.081"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 95.3, 286.46)" filter="url(#Rectangle_10)">
+      <rect id="Rectangle_10-2" data-name="Rectangle 10" width="35.195" height="51.483" transform="translate(48.68 23.13)" fill="#fff" stroke="#633a82" stroke-width="1.081"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 95.3, 286.46)" filter="url(#Rectangle_11)">
+      <rect id="Rectangle_11-2" data-name="Rectangle 11" width="8.726" height="2.559" transform="translate(61.92 78.13)" fill="#72b5b7" stroke="#633a82" stroke-width="1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 95.3, 286.46)" filter="url(#Ellipse_2)">
+      <ellipse id="Ellipse_2-2" data-name="Ellipse 2" cx="1.095" cy="1.071" rx="1.095" ry="1.071" transform="translate(65.81 18.65)" fill="#0cc" stroke="#633a82" stroke-width="1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 95.3, 286.46)" filter="url(#Rectangle_12)">
+      <rect id="Rectangle_12-2" data-name="Rectangle 12" width="27.282" height="43.896" rx="3.249" transform="translate(31.09 45.78)" fill="#fff" stroke="#633a82" stroke-width="1.081"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 95.3, 286.46)" filter="url(#Rectangle_13)">
+      <rect id="Rectangle_13-2" data-name="Rectangle 13" width="20.761" height="33.115" transform="translate(34.35 50.33)" fill="#fff" stroke="#633a82" stroke-width="1.081"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 95.3, 286.46)" filter="url(#Rectangle_14)">
+      <rect id="Rectangle_14-2" data-name="Rectangle 14" width="5.147" height="1.646" transform="translate(42.16 85.72)" fill="#0cc" stroke="#633a82" stroke-width="1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 95.3, 286.46)" filter="url(#Rectangle_15)">
+      <rect id="Rectangle_15-2" data-name="Rectangle 15" width="16.107" height="0.858" transform="translate(94.51 61.27)" fill="#0cc" stroke="#633a82" stroke-width="1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 95.3, 286.46)" filter="url(#_)">
+      <text id="_2" data-name="☠" transform="translate(54.89 44.32)" fill="#633a82" font-size="18" font-family="SegoeUIEmoji, Segoe UI Emoji"><tspan x="0" y="0">☠</tspan></text>
+    </g>
+  </g>
+</svg>
