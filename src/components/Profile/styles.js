@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import { colors } from "../Header/styles"
+import styled, { css } from "styled-components"
+import { colors, fadeIn } from "../styles/animation"
 
 export const NewContainer = styled.div`
   width: 100%;
@@ -16,6 +16,13 @@ export const Container = styled.section`
   grid-template-rows: 1fr;
   height: 250px;
   justify-items: center;
+  ${(props) =>
+    props.show &&
+    css`
+       {
+        ${fadeIn()}
+      }
+    `}
 `
 export const ImgContainer = styled.div`
   justify-self: start;

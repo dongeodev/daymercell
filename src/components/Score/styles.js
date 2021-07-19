@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components"
 import arrows from "../../images/arrows.svg"
-import { GoRight } from "../Header/styles"
+import { GoRight } from "../styles/animation"
 
 export const Container = styled.section`
   width: 100%;
@@ -13,5 +13,5 @@ export const Container = styled.section`
   justify-items: center;
   background-image: url(${arrows});
   background-repeat: no-repeat;
-  animation: ${GoRight} 1s ease forwards;
+  animation: ${GoRight()};
 `

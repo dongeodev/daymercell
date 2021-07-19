@@ -1,9 +1,9 @@
 import styled from "styled-components"
-import { colors } from "../Header/styles"
+import { colors } from "../styles/animation"
 
 export const Card = styled.div`
   display: grid;
-  grid-template-columns: 72px minmax(100px, 200px);
+  grid-template-columns: 72px 100px;
   grid-template-rows: 1fr;
   height: 72px;
   color: ${colors.acent};
@@ -14,9 +14,9 @@ export const Card = styled.div`
   & img {
     margin: 0;
   }
-  @media only screen and (max-width: 360px) {
+  /* @media only screen and (max-width: 360px) {
     grid-template-columns: 72px 100px;
-  }
+  } */
 `
 
 export const MiniCard = styled.div`

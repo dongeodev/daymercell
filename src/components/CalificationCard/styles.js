@@ -1,16 +1,24 @@
-import styled from "styled-components"
-import { colors } from "../Header/styles"
+import styled, { css } from "styled-components"
+import { colors, fadeIn } from "../styles/animation"
 
 export const Card = styled.div`
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 71px 1fr;
   /* width: 96%; */
-  height: 68px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: fit-content;
+  min-height: 68px;
   border-radius: 8px;
   background: ${colors.gray};
   justify-items: center;
   box-shadow: 2px 2px 2px 1px rgba(99, 58, 130, 0.4);
+  ${(props) =>
+    props.show &&
+    css`
+      ${fadeIn()}
+    `}
   :hover {
     border: 1px solid ${colors.primary};
   }

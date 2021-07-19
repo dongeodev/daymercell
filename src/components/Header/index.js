@@ -1,9 +1,6 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React, { useState, useEffect } from "react"
 import logo from "../../images/logo.png"
-import DevBroken from "../../images/device1.svg"
-import DevRepaired from "../../images/device2.svg"
 import arrowRight from "../../images/arrowright.svg"
 import arrowLeft from "../../images/arrowleft.svg"
 import iconArrow from "../../images/arrow_icon.svg"
@@ -21,21 +18,28 @@ import {
   ArrowIcon,
 } from "./styles"
 
-const Header = ({ siteTitle }) => (
-  <Container>
-    <Texture src={arrowRight} />
-    <Texture2 src={arrowLeft} />
-    <LogoContainer>
-      <Logo src={logo} />
-      <Name>DaymerCell</Name>
-    </LogoContainer>
-    <Hero>
-      <LogoHero />
-      <Button>Necesitas un Tecnico?</Button>
-      <ArrowIcon src={iconArrow} />
-    </Hero>
-  </Container>
-)
+const Header = ({ siteTitle }) => {
+  const [animation, setAnimation] = useState(false)
+  useEffect(() => {
+    setAnimation(true)
+  }, [animation])
+
+  return (
+    <Container>
+      <Texture src={arrowRight} start={animation} />
+      <Texture2 src={arrowLeft} start={animation} />
+      <LogoContainer>
+        <Logo src={logo} />
+        <Name>DaymerCell</Name>
+      </LogoContainer>
+      <Hero>
+        <LogoHero start={animation} />
+        <Button>El mejor servicio Tecnico</Button>
+        <ArrowIcon src={iconArrow} />
+      </Hero>
+    </Container>
+  )
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

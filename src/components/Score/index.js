@@ -9,7 +9,7 @@ export const Score = () => {
   return (
     <Container>
       <Rate
-        number="2497"
+        number="3497"
         icon={tools}
         description="Dispositivos Reparados"
       />
@@ -19,7 +19,7 @@ export const Score = () => {
         description="Años de Experiencia"
       />
       <Rate
-        number="98"
+        number="99"
         simbol={true}
         icon={client}
         description="Clientes Satisfechos"

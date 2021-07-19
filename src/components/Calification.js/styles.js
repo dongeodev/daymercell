@@ -5,6 +5,6 @@ export const Container = styled.section`
   padding: 25px 6% 35px 6%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, 68px);
+  grid-auto-rows: auto;
   grid-gap: 12px;
 `

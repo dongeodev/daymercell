@@ -1,54 +1,10 @@
-import styled, { keyframes } from "styled-components"
+import styled, { keyframes, css } from "styled-components"
 import DevBroken from "../../images/device1.svg"
-import DevRepaired from "../../images/device2.svg"
-
-export const colors = {
-  primary: "#40E0D0",
-  secundary: "#2BBDE1",
-  third: "#72B5B7",
-  acent: "#633A82",
-  light: "#F1FCFC",
-  gray: "#E6ECEC",
-}
-
-const GoDown = keyframes`
-from{
-  transform: translateY(10px);
-}
-50%{
-  transform: translateY(4px);
-}
-to{
-  transform: translateY(10px)
-}
-`
-export const GoRight = keyframes`
-from{
-  transform: translateX(-45px);
-}
-to{
-  transform: translateX(0px)
-}
-`
-export const GoLeft = keyframes`
-from{
-  transform: translateX(45px);
-  /* transform: rotate(180deg); */
-}
-to{
-  transform: translateX(0px)
-}
-`
-const GoRote = keyframes`
-from{
-  transform: rotateY(0);
-  /* transform: rotate(180deg); */
-}
-to{
-  transform: rotateY(360deg);
-  background-image:url(${DevRepaired});
-}
-`
+import { GoRight } from "../styles/animation"
+import { GoLeft } from "../styles/animation"
+import { GoDown } from "../styles/animation"
+import { GoRote } from "../styles/animation"
+import { colors } from "../styles/animation"
 
 export const Container = styled.header`
   display: grid;
@@ -69,13 +25,26 @@ export const Texture = styled.img`
   position: absolute;
   top: 52px;
   left: 0;
-  animation: ${GoRight} 0.5s ease;
+  ${(props) =>
+    props.start &&
+    css`
+       {
+        ${GoRight()}
+      }
+    `}
 `
 export const Texture2 = styled.img`
   position: absolute;
   top: 0;
   right: 0;
-  animation: ${GoLeft} 0.5s ease;
+
+  ${(props) =>
+    props.start &&
+    css`
+       {
+        ${GoLeft()}
+      }
+    `}
 `
 export const LogoContainer = styled.div`
   display: flex;
@@ -103,24 +72,35 @@ export const Name = styled.p`
 `
 
 export const Hero = styled.div`
-  align-self: start;
-  justify-self: center;
-  height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 `
 export const LogoHero = styled.div`
   margin-bottom: 20px;
-  /* width: 110px; */
+  width: 140px;
   height: 95px;
   background-position-x: 15px;
   background-image: url(${DevBroken});
   background-repeat: no-repeat;
-  animation: ${GoRote} 1s ease-in forwards;
+  ${(props) =>
+    props.start &&
+    css`
+       {
+        ${GoRote()}
+      }
+    `}
 `
-export const Button = styled.button`
-  min-width: 146px;
+export const Button = styled.span`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
   height: 32px;
+  padding: 10px;
   background: ${colors.acent};
   color: ${colors.light};
   font-family: Roboto;
@@ -128,12 +108,9 @@ export const Button = styled.button`
   border: 1px solid ${colors.primary};
   border-radius: 5px;
   box-shadow: 0 3px 6px 0px rgba(99, 58, 130, 0.4);
-  :hover {
-    font-weight: bold;
-  }
 `
 
 export const ArrowIcon = styled.img`
   margin-top: 9px;
-  animation: ${GoDown} 1s ease-in infinite;
+  ${GoDown()}
 `
