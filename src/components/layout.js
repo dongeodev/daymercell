@@ -51,7 +51,7 @@ const Notch = styled.div`
   right: calc(50% - 60px);
   top: 0;
   width: 120px;
-  height: 4.25vh;
+  height: 20px;
   background-color: #111;
   border-bottom-left-radius: 2.334vh;
   border-bottom-right-radius: 2.334vh;
