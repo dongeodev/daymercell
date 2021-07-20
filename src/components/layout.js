@@ -1,23 +1,18 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
-
 import Whatsapp from "../images/whatsapp.svg"
-
 import Header from "./Header"
 import "./layout.css"
 import styled from "styled-components"
 
-const Container = styled.div`
+const ContainerFrime = styled.div`
   position: relative;
   width: 100%;
-  height: 100%;
+`
+const Container = styled.div`
+  position: relative;
+  width: 100vw;
+  height: 100vh;
   @media (min-width: 550px) {
     max-width: 375px;
     height: 90vh;
@@ -28,14 +23,13 @@ const Container = styled.div`
     scroll-behavior: smooth;
     background-color: #fff;
     box-shadow: 6px 6px 7px 1px rgb(0 0 0 / 35%);
-    @media (min-width: 550px) {
-      &::-webkit-scrollbar {
-        width: 5px;
-      }
-      &::-webkit-scrollbar-thumb {
-        background: #633a82;
-        border-radius: 10px;
-      }
+
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: #633a82;
+      border-radius: 10px;
     }
   }
 `
@@ -66,9 +60,7 @@ const Notch = styled.div`
     display: block;
   }
 `
-const ContainerFrime = styled.div`
-  position: relative;
-`
+
 const Layout = ({ children, title }) => {
   return (
     <ContainerFrime>
